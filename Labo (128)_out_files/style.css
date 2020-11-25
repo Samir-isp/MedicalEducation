@@ -1,0 +1,224 @@
+sup {
+	top: -0.4em;
+	vertical-align: baseline;
+	position: relative;
+}
+sub {
+	top: 0.4em;
+	vertical-align: baseline;
+	position: relative;
+}
+a:link {text-decoration:none;}
+a:visited {text-decoration:none;}
+@media screen and (min-device-pixel-ratio:0), (-webkit-min-device-pixel-ratio:0), (min--moz-device-pixel-ratio: 0) {.stl_view{ font-size:10em; transform:scale(0.1); -moz-transform:scale(0.1); -webkit-transform:scale(0.1); -moz-transform-origin:top left; -webkit-transform-origin:top left; } }
+.layer { }.ie { font-size: 1pt; }
+.ie body { font-size: 12em; }
+.stl_01 {
+	position: absolute;
+	white-space: nowrap;
+}
+.stl_02 {
+	height: 40.08333em;
+	font-size: 1em;
+	margin: 0em;
+	line-height: 0.0em;
+	display: block;
+	border-style: none;
+	width: 27.08333em;
+}
+
+@supports(-ms-ime-align:auto) { .stl_02 {width: auto; overflow: hidden;}}
+.stl_03 {
+	position: relative;
+}
+.stl_04 {
+	left: 0em;
+	position: absolute;
+	top: 0em;
+}
+.stl_05 {
+	position: relative;
+	width: 27.08333em;
+}
+.stl_06 {
+	height: 4.008333em;
+}
+.ie .stl_06 {
+	height: 40.08333em;
+}
+@font-face {
+	font-family:"JAWCMI+FrutigerLTStd-Black";
+	src:url("9e9eb0eb-0000-0000-0000-000000000000.woff") format("woff");
+}
+.stl_07 {
+	font-size: 1.5em;
+	font-family: "JAWCMI+FrutigerLTStd-Black";
+	color: #44AA42;
+}
+.stl_08 {
+	line-height: 1.204em;
+}
+.stl_09 {
+	letter-spacing: 0em;
+}
+
+.ie .stl_09 {
+	letter-spacing: 0px;
+}
+.stl_10 {
+	font-size: 1em;
+	font-family: "JAWCMI+FrutigerLTStd-Black";
+	color: #221E1F;
+}
+.stl_11 {
+	font-size: 0.833333em;
+	font-family: "JAWCMI+FrutigerLTStd-Black";
+	color: #FFFFFF;
+}
+@font-face {
+	font-family:"REPRRI+FrutigerLTStd-Roman";
+	src:url("3d8920ce-0000-0000-0000-000000000000.woff") format("woff");
+}
+.stl_12 {
+	font-size: 0.666667em;
+	font-family: "REPRRI+FrutigerLTStd-Roman";
+	color: #221E1F;
+}
+.stl_13 {
+	line-height: 1.185em;
+}
+.stl_14 {
+	letter-spacing: -0.0019em;
+}
+
+.ie .stl_14 {
+	letter-spacing: -0.0202px;
+}
+.stl_15 {
+	letter-spacing: 0.0001em;
+}
+
+.ie .stl_15 {
+	letter-spacing: 0.001px;
+}
+.stl_16 {
+	font-size: 0.388667em;
+	font-family: "REPRRI+FrutigerLTStd-Roman";
+	color: #221E1F;
+}
+.stl_17 {
+	font-size: 0.75em;
+	font-family: "JAWCMI+FrutigerLTStd-Black";
+	color: #221E1F;
+}
+.stl_18 {
+	letter-spacing: -0.0018em;
+}
+
+.ie .stl_18 {
+	letter-spacing: -0.0216px;
+}
+.stl_19 {
+	letter-spacing: -0.0012em;
+}
+
+.ie .stl_19 {
+	letter-spacing: -0.013px;
+}
+.stl_20 {
+	letter-spacing: -0.0042em;
+}
+
+.ie .stl_20 {
+	letter-spacing: -0.0508px;
+}
+@font-face {
+	font-family:"KPSWEC+FrutigerLTStd-Bold";
+	src:url("3c21bc30-0000-0000-0000-000000000000.woff") format("woff");
+}
+.stl_21 {
+	font-size: 0.666667em;
+	font-family: "KPSWEC+FrutigerLTStd-Bold";
+	color: #221E1F;
+}
+@font-face {
+	font-family:"CUWWVP+SymbolBold";
+	src:url("490c64ff-0000-0000-0000-000000000000.woff") format("woff");
+}
+.stl_22 {
+	font-size: 0.666667em;
+	font-family: "CUWWVP+SymbolBold", "Times New Roman";
+	color: #221E1F;
+}
+.stl_23 {
+	line-height: 1.336em;
+}
+.stl_24 {
+	letter-spacing: -0.0014em;
+}
+
+.ie .stl_24 {
+	letter-spacing: -0.0166px;
+}
+.stl_25 {
+	letter-spacing: -0.0021em;
+}
+
+.ie .stl_25 {
+	letter-spacing: -0.0228px;
+}
+.stl_26 {
+	letter-spacing: -0.0023em;
+}
+
+.ie .stl_26 {
+	letter-spacing: -0.0245px;
+}
+@font-face {
+	font-family:"FDITOL+Symbol";
+	src:url("2a50fb34-0000-0000-0000-000000000000.woff") format("woff");
+}
+.stl_27 {
+	font-size: 0.666667em;
+	font-family: "FDITOL+Symbol", "Times New Roman";
+	color: #221E1F;
+}
+.stl_28 {
+	line-height: 1.303em;
+}
+.stl_29 {
+	letter-spacing: -0.0049em;
+}
+
+.ie .stl_29 {
+	letter-spacing: -0.0523px;
+}
+@font-face {
+	font-family:"LFBUPK+FrutigerLTStd-Italic";
+	src:url("8cca4180-0000-0000-0000-000000000000.woff") format("woff");
+}
+.stl_30 {
+	font-size: 0.666667em;
+	font-family: "LFBUPK+FrutigerLTStd-Italic";
+	color: #221E1F;
+}
+.stl_31 {
+	line-height: 1.18em;
+}
+.stl_32 {
+	font-size: 0.5em;
+	font-family: "REPRRI+FrutigerLTStd-Roman";
+	color: #45AB43;
+}
+@font-face {
+	font-family:"POJWOD+FrutigerLTStd-Light";
+	src:url("682386dc-0000-0000-0000-000000000000.woff") format("woff");
+}
+.stl_33 {
+	font-size: 0.666667em;
+	font-family: "POJWOD+FrutigerLTStd-Light", "Times New Roman";
+	color: #221E1F;
+}
+.stl_34 {
+	line-height: 1.161em;
+}
