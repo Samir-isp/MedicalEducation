@@ -1,3 +1,0 @@
-User-agent: Privacy%20Policy.html
-User-agent: https://mededuct.comm/Terms%20of%20service.html
-Disallow: /
