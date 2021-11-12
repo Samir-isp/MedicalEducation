@@ -1,5 +1,0 @@
-
-		<li><a href="	pathologies_154.html"><span class="fa fa-home"></span> Dermo-hypodermite bactérienne nécrosante</a></li>
-		<li><a href="	pathologies_230.html"><span class="fa fa-home"></span> Dermatomyosite - Polymyosite</a></li>
-		<li><a href="	pathologies_268.html"><span class="fa fa-home"></span> Prurit</a></li>
-		<li><a href="	pathologies_57.html"><span class="fa fa-home"></span> Erysipèle</a></li>
