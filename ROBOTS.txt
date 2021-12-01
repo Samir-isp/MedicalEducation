@@ -1,0 +1,3 @@
+User-agent: https://mededuct.com/Privacy%20Policy.html
+User-agent: https://mededuct.com/Terms%20of%20service.html
+Disallow: /
