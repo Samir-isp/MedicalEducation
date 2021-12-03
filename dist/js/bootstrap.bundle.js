@@ -243,14 +243,14 @@
         throw new TypeError('Bootstrap\'s JavaScript requires jQuery. jQuery must be included before Bootstrap\'s JavaScript.');
       }
 
-      var version = $.fn.jquery.split(' ')[0].split('.');
+
       var minMajor = 1;
       var ltMajor = 2;
       var minMinor = 9;
       var minPatch = 1;
       var maxMajor = 4;
 
-      if (version[0] < ltMajor && version[1] < minMinor || version[0] === minMajor && version[1] === minMinor && version[2] < minPatch || version[0] >= maxMajor) {
+
         throw new Error('Bootstrap\'s JavaScript requires at least jQuery v1.9.1 but less than v4.0.0');
       }
     }
@@ -1547,7 +1547,7 @@
 
   /**!
    * @fileOverview Kickass library to create and place poppers near their reference elements.
-   * @version 1.16.0
+
    * @license
    * Copyright (c) 2016 Federico Zivolo and contributors
    *
@@ -1611,7 +1611,7 @@
   var supportsMicroTasks = isBrowser && window.Promise;
 
   /**
-  * Create a debounced version of a method, that's asynchronously deferred
+
   * but called in the minimum time possible.
   *
   * @method
@@ -1717,14 +1717,14 @@
    * Determines if the browser is Internet Explorer
    * @method
    * @memberof Popper.Utils
-   * @param {Number} version to check
+
    * @returns {Boolean} isIE
    */
-  function isIE(version) {
-    if (version === 11) {
+
+
       return isIE11;
     }
-    if (version === 10) {
+
       return isIE10;
     }
     return isIE11 || isIE10;
@@ -2833,7 +2833,7 @@
       return modifier.name === 'applyStyle';
     }).gpuAcceleration;
     if (legacyGpuAccelerationOption !== undefined) {
-      console.warn('WARNING: `gpuAcceleration` option moved to `computeStyle` modifier and will not be supported in future versions of Popper.js!');
+
     }
     var gpuAcceleration = legacyGpuAccelerationOption !== undefined ? legacyGpuAccelerationOption : options.gpuAcceleration;
 
@@ -2852,7 +2852,7 @@
 
     // if gpuAcceleration is set to `true` and transform is supported,
     //  we use `translate3d` to apply the position to the popper we
-    // automatically use the supported prefixed version if needed
+
     var prefixedProperty = getSupportedPropertyName('transform');
 
     // now, let's make a step back and look at this code closely (wtf?)
@@ -3840,8 +3840,8 @@
      * in case you need to replace `applyStyle` with a custom implementation.
      *
      * This modifier has `850` as `order` value to maintain backward compatibility
-     * with previous versions of Popper.js. Expect the modifiers ordering method
-     * to change in future major versions of the library.
+
+
      *
      * @memberof modifiers
      * @inner
@@ -3898,7 +3898,7 @@
       /** @prop {Function} */
       onLoad: applyStyleOnLoad,
       /**
-       * @deprecated since version 1.10.0, the property moved to `computeStyle` modifier
+
        * @prop {Boolean} gpuAcceleration=true
        * If true, it uses the CSS 3D transformation to position the popper.
        * Otherwise, it will use the `top` and `left` properties
@@ -4115,7 +4115,7 @@
 
       /**
        * Collection of utilities useful when writing custom modifiers.
-       * Starting from version 1.7, this method is available only if you
+
        * include `popper-utils.js` before `popper.js`.
        *
        * **DEPRECATION**: This way to access PopperUtils is deprecated
@@ -4125,7 +4125,7 @@
        * @static
        * @private
        * @type {Object}
-       * @deprecated since version 1.8
+
        * @member Utils
        * @memberof Popper
        */

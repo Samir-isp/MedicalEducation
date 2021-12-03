@@ -11697,7 +11697,7 @@ D:\Users\SAMIR\Documents\GitHub\MedicalEducation\pericardite.html
 D:\Users\SAMIR\Documents\GitHub\MedicalEducation\peritonite.html
 D:\Users\SAMIR\Documents\GitHub\MedicalEducation\personne_agee_grabataire.html
 D:\Users\SAMIR\Documents\GitHub\MedicalEducation\personne_diabetique.html
-D:\Users\SAMIR\Documents\GitHub\MedicalEducation\perversions.html
+
 D:\Users\SAMIR\Documents\GitHub\MedicalEducation\phlegmon_amygdale.html
 D:\Users\SAMIR\Documents\GitHub\MedicalEducation\physiologie_appareil_respiratoire.html
 D:\Users\SAMIR\Documents\GitHub\MedicalEducation\physiologie_appareil_urinaire.html
